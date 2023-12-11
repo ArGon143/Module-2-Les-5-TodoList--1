@@ -1,0 +1,36 @@
+.app {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.appHeader {
+	min-height: 10vh;
+	min-width: 35rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 1.5rem 0;
+}
+
+.titleHeader {
+	font-size: 2.25rem;
+	font-weight: normal;
+	text-shadow: 2px 2px 2px rgb(179, 177, 177);
+	width: 23rem;
+	text-align: center;
+}
+
+.todo {
+	border: 1px solid gray;
+	border-radius: 7px;
+	margin: 5px 0;
+	padding: 10px 15px;
+	text-align: start;
+	width: 35rem;
+	box-shadow: 3px 3px 4px rgb(179, 177, 177);
+	font-size: 1rem;
+	background-color: whitesmoke;
+}
